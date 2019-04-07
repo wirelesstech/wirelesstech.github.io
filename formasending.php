@@ -16,7 +16,7 @@ $mail->SMTPAuth = true;                               // Enable SMTP authenticat
 $mail->Username = 'v.v.12@ukr.net'; // Ваш логин от почты с которой будут отправляться письма
 $mail->Password = '0505878100'; // Ваш пароль от почты с которой будут отправляться письма
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 2525; // TCP port to connect to / этот порт может отличаться у других провайдеров
+$mail->Port = 465; // TCP port to connect to / этот порт может отличаться у других провайдеров
 
 $mail->setFrom('v.v.12@ukr.net'); // от кого будет уходить письмо?
 $mail->addAddress('lembergcran@gmail.com');     // Кому будет уходить письмо 
