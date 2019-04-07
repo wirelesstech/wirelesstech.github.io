@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+ 
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Форма заказа</title>
+</head>
+<body bgcolor=#EED5A6>
+<center>
+<h2>Сделать заказ:</h2>
+<form method='post' action='mail.php'>
+<p>Имя фамилия<font color="#FF0000">*</font></p>
+<input type='text' name='u_name' size='30' />
+<p>&nbsp;</p>
+<p>Номер телефона:<font color="#FF0000">*</font></p>
+<input type='text' name='u_noumberTelephone' size='30' />
+<p>&nbsp;</p>
+<p>Улица:<font color="#FF0000">*</font></p>
+<input type='text' name='u_street' size='30' />
+<p>&nbsp;</p>
+<p>Номер дома:<font color="#FF0000">*</font></p>
+<input type='text' name='u_noumberHome' size='30' />
+<p>&nbsp;</p>
+<p>Квартира:<font color="#FF0000">*</font></p>
+<input type='text' name='u_roomNoumber' size='30' />
+<p>&nbsp;</p>
+<p>Заказ (укажите название, количество):<font color="#FF0000">*</font></p>
+<textarea name='zakaz' cols='30' rows='7'></textarea><br />
+<p>&nbsp;</p>
+<p>Комментарий (код дверей, домофона; этаж; парадное;):</p>
+<textarea name='messge' cols='30' rows='7'></textarea><br />
+<input type='submit' value='Отправить' />
+<input type="reset" name="Reset" value="Очистить">
+</form>
+</center></body>
+</html>
